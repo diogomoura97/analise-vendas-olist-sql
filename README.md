@@ -45,7 +45,8 @@ GROUP BY
 ORDER BY 
     Receita_Total_R$ DESC;
 
-<img width="1043" height="885" alt="2" src="https://github.com/user-attachments/assets/6aee42de-c2b1-415b-91ae-ae1d269fcd3b" />
+<img width="689" height="583" alt="1" src="https://github.com/user-attachments/assets/e081a6e8-9a28-4b2f-ae0f-c51bacc300cd" />
+
 
 
     
