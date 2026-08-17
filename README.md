@@ -45,7 +45,7 @@ GROUP BY
 ORDER BY 
     Receita_Total_R$ DESC;
 
-
+<img width="1043" height="885" alt="2" src="https://github.com/user-attachments/assets/6aee42de-c2b1-415b-91ae-ae1d269fcd3b" />
 
 
     
@@ -73,10 +73,7 @@ GROUP BY
 ORDER BY 
     Tempo_Medio_Entrega_Dias ASC;
 
-
-
-
-
+<img width="1043" height="885" alt="2" src="https://github.com/user-attachments/assets/f65f8823-c7e5-4de5-bc01-3ea0ce82193e" />
 
 
     
@@ -101,3 +98,5 @@ SELECT
     SUM(Entregue_Atrasado) AS Total_Atrasados,
     CAST((SUM(Entregue_Atrasado) * 100.0) / COUNT(order_id) AS DECIMAL(5,2)) AS Porcentagem_Atraso
 FROM Status_Entregas;
+
+<img width="913" height="536" alt="3" src="https://github.com/user-attachments/assets/b5e43a6f-67a0-4c30-baec-a6d9e46c5cd0" />
