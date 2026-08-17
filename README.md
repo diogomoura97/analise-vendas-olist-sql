@@ -26,9 +26,9 @@ A base de dados é composta por 9 tabelas relacionais que mapeiam o processo com
 
 Principais Análises de Negócio (Queries)
 
-### 1. Top Categorias por Receita
+****1. Top Categorias por Receita
 Identifica quais categorias de produtos trazem o maior faturamento bruto para a plataforma.
-* **Conceitos aplicados:** `JOIN` múltiplo, Funções de Agregação (`SUM`, `COUNT`), Ordenação (`ORDER BY`) e Limitação de Resultados (`TOP`).
+
 
 
 SELECT TOP 10
@@ -52,10 +52,10 @@ ORDER BY
 
 
     
-2. Eficiência Logística por Estado
+****2. Eficiência Logística por Estado
 Mede o tempo médio que os pedidos levam para serem entregues aos clientes em cada estado brasileiro.
 
-Conceitos aplicados: Manipulação de datas (DATEDIFF), filtros condicionais avançados e agregação por estado.
+
 
 SQL
 SELECT 
@@ -80,10 +80,9 @@ ORDER BY
 
 
     
-3. Taxa de Atrasos nas Entregas
+****3. Taxa de Atrasos nas Entregas
 Calcula a porcentagem geral de pedidos entregues após a data estimada de entrega prometida ao cliente.
 
-Conceitos aplicados: Expressões de Tabela Comuns (CTEs), Lógica Condicional (CASE WHEN), e cálculos com conversão de ponto flutuante.
 
 SQL
 WITH Status_Entregas AS (
